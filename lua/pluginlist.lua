@@ -3,6 +3,9 @@ return {
     "williamboman/mason-lspconfig.nvim",
     "neovim/nvim-lspconfig",
 	"lewis6991/gitsigns.nvim",
+	"theprimeagen/harpoon",
+	"mbbill/undotree",
+	"tpope/vim-fugitive",
 	{	
 		"nvim-tree/nvim-tree.lua",
 	},
@@ -36,7 +39,6 @@ return {
 			vim.cmd("colorscheme oxocarbon")
 		end
 	},
-	{'akinsho/toggleterm.nvim', version = "*", config = true},
 	{
         'nvim-lualine/lualine.nvim',
         dependencies = {
