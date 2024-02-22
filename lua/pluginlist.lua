@@ -3,7 +3,11 @@ return {
     "williamboman/mason-lspconfig.nvim",
     "neovim/nvim-lspconfig",
 	"lewis6991/gitsigns.nvim",
-	"theprimeagen/harpoon",
+	{
+    	"ThePrimeagen/harpoon",
+    	branch = "harpoon2",
+   		dependencies = { "nvim-lua/plenary.nvim" }
+	},
 	"mbbill/undotree",
 	"tpope/vim-fugitive",
 	{	
